@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrnd"
+    tools:context=".Main2Activity">
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME"/>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/edt1"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        android:layout_below="@+id/edt2"/>
+
+
+
+
+</RelativeLayout>
